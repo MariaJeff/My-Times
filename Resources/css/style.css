@@ -1,0 +1,113 @@
+header{
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  position: fixed;
+  background-color: white;
+  width: 100%
+}
+nav span{
+  display: inline-block;
+  width: 80px;
+}
+
+.logo{
+  display: inline-flex;
+}
+
+nav{
+  display: inline-flex;
+}
+
+a{
+  color: black;
+}
+
+.maincontainer{
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header,
+.header3,
+.header5,
+.header7,
+.header8{
+  border: 1px solid black;
+  display: inline-flex;
+}
+
+.body1,
+.body5,
+.body6{
+  border: 1px solid black;
+  display: inline-flex;
+}
+
+.firstcontainer{
+  border: 1px solid red;
+  display: inline-block;
+  width: 630px;
+}
+.secondcontainer{
+  display: flex;
+  border: 1px solid blue;
+  width: 300px;
+  display: inline-block;
+}
+.thirdcontainer{
+  display: flex;
+  border: 1px solid green;
+  width: 240px;
+  display: inline-block;
+  flex-direction: column;
+}
+.header{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 629px;
+  height: 300px;
+
+}
+.header3{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 299px;
+  height: 300px;
+}
+.header5{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 299px;
+  height: 300px;
+}
+
+.header7{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 299px;
+  height: 300px;
+}
+body{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+#inter{
+  width: 630px;
+}
